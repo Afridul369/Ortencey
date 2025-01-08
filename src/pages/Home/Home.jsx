@@ -2,6 +2,7 @@ import React from 'react'
 import TopBar from '../../layout/TopBar/TopBar'
 import Navbar from '../../layout/Navbar/Navbar'
 import Banner from '../../layout/Banner/Banner'
+import AboutOurCompany from '../../layout/AboutOurCompany/AboutOurCompany'
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
     <TopBar/>
     <Navbar/>
     <Banner/>
+    <AboutOurCompany/>
     </>
   )
 }

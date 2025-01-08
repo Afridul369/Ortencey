@@ -24,6 +24,7 @@ export default {
         Black01:'#1A1A1A',
         SearchBG:'#f4f4ff',
         BannerBG:'#333333',
+        Grey1:'#6B6161',
       },
       backgroundImage: {
         Banner: "url('/src/assets/banner.png')",

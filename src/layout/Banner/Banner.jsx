@@ -4,6 +4,7 @@ import Text from '../../components/Text'
 import Container from '../../components/Container'
 import Image from '../../components/Image'
 import image from '../../assets/bannerimg01.png'
+import image2 from '../../assets/vector1.png'
 import Button02 from '../../components/Button02'
 
 const Banner = () => {
@@ -18,8 +19,9 @@ const Banner = () => {
                     <Text as='p' text='The 3 golden rules professional Digital Marketing Agency don’t want you to know about.' className='text-xl font-medium text-white font-Dm pr-52 pb-7'/>
                     <Button02 text={'Discover More'}/>
                 </div>
-                <div className="w-2/5">
-                    <Image imgSrc={image} imgAlt={'image'}/>
+                <div className="w-2/5 relative">
+                    <Image imgSrc={image} imgAlt={'image'} className={'relative'}/>
+                    <Image imgSrc={image2} imgAlt={'image2'} className={'absolute -top-5 left-16'}/>
                 </div>
             </Flex>
         </Container>
