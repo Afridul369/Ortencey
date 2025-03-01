@@ -33,6 +33,7 @@ export default {
       backgroundImage: {
         Banner: "url('/src/assets/banner.png')",
         WhyShape: "url('/src/assets/shape.png')",
+        Project: "url('/src/assets/projectbg.png')",
       },
     },
   },
