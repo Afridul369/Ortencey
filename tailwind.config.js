@@ -12,7 +12,7 @@ export default {
         Poppins: ['Poppins'],
       },
       maxWidth: {
-        Container: '1400px',
+        Container: '1450px',
       },
       colors: {
         BlueBg:'#3661fc',
@@ -25,9 +25,14 @@ export default {
         SearchBG:'#f4f4ff',
         BannerBG:'#333333',
         Grey1:'#6B6161',
+        Grey2:'#BCBCBC',
+        CardBg:'#f4f4ff',
+        Orange01:'#ff7024',
+        Orange02:'#ffa951',
       },
       backgroundImage: {
         Banner: "url('/src/assets/banner.png')",
+        WhyShape: "url('/src/assets/shape.png')",
       },
     },
   },

@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <>
     <div className="bg-BannerBG">
-      <div className="bg-white py-3.5 pl-4 max-w-[1570px] ml-auto rounded-l-[50px] ">
+      <div className="bg-white py-3.5 pl-4 max-w-[1700px] ml-auto rounded-l-[50px] ">
           <Flex className={'items-center '}>
               <div className="">
                   <Flex className={'gap-x-3.5 items-center'}>
@@ -25,7 +25,7 @@ const Navbar = () => {
                   </Flex>
               </div>
               <div className="">
-                  <Flex className={'gap-x-6 py-5 items-center px-24 justify-center'}>
+                  <Flex className={'gap-x-6 py-5 items-center px-40 justify-center'}>
                       <div className="relative group">
                           <Menu menuname={'Home'}/>
                           <span className='w-12  h-0.5 group-hover:bg-gradient-to-r group-hover:from-Orange group-hover:to-OrangeLight bg-transparent duration-700 absolute bottom-0 group-hover:-bottom-9 left-0 '></span>

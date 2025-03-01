@@ -3,6 +3,9 @@ import TopBar from '../../layout/TopBar/TopBar'
 import Navbar from '../../layout/Navbar/Navbar'
 import Banner from '../../layout/Banner/Banner'
 import AboutOurCompany from '../../layout/AboutOurCompany/AboutOurCompany'
+import SkillCards from '../../layout/SkillCards/SkillCards'
+import WhyChoose from '../../layout/WhyChoose/WhyChoose'
+import PricingPlan from '../../layout/PricingPlan/PricingPlan'
 
 const Home = () => {
   return (
@@ -11,6 +14,9 @@ const Home = () => {
     <Navbar/>
     <Banner/>
     <AboutOurCompany/>
+    <SkillCards/>
+    <WhyChoose/>
+    <PricingPlan/>
     </>
   )
 }

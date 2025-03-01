@@ -13,9 +13,9 @@ const TopBar = () => {
   return (
   <>
   <div className="bg-BannerBG">
-    <div className="py-2 max-w-[1540px] bg-BlueBg  rounded-r-3xl">
+    <div className="py-2 max-w-[1710px] bg-BlueBg  rounded-r-3xl">
         <Flex className={'justify-between'}>
-            <Flex className={'sm:pl-44 flex-col gap-y-0 sm:flex-row sm:pr-[340px]'}>
+            <Flex className={'sm:pl-56 flex-col gap-y-0 sm:flex-row sm:pr-[340px]'}>
                 <Text as="p" text="Welcome to Ortencey Digital Market Agency" className="text-sm font-Dm text-white pr-3.5 border-r border-BorderRight"/>
                 <Flex className={'text-xl items-center gap-x-2 px-3.5 pr-3.5 border-r border-BorderRight'}>
                     <FaPhoneAlt className=' '/>

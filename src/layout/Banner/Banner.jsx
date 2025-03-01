@@ -10,7 +10,7 @@ import Button02 from '../../components/Button02'
 const Banner = () => {
   return (
     <>
-    <div className="bg-BannerBG py-24">
+    <div className="bg-Banner  py-24">
         <Container>
             <Flex className={'justify-between'}>
                 <div className="py-24 w-3/5">
