@@ -29,6 +29,7 @@ export default {
         CardBg:'#f4f4ff',
         Orange01:'#ff7024',
         Orange02:'#ffa951',
+        Star:'#fcc013',
       },
       backgroundImage: {
         Banner: "url('/src/assets/banner.png')",

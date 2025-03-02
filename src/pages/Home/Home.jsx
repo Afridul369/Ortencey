@@ -8,6 +8,7 @@ import WhyChoose from '../../layout/WhyChoose/WhyChoose'
 import PricingPlan from '../../layout/PricingPlan/PricingPlan'
 import NewProject from '../../layout/New Project/NewProject'
 import TeamMember from '../../layout/Team Member/TeamMember'
+import Testimonial from '../../layout/Testimonial/Testimonial'
 
 const Home = () => {
   return (
@@ -21,6 +22,7 @@ const Home = () => {
     <PricingPlan/>
     <NewProject/>
     <TeamMember/>
+    <Testimonial/>
     </>
   )
 }
