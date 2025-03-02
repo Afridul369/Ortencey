@@ -5,6 +5,10 @@ import Flex from '../../components/Flex'
 import Icon from '../../assets/icon01.png'
 import Text from '../../components/Text'
 import Button02 from '../../components/Button02'
+import BarContent from '../../components/BarContent'
+import Settings from '../../assets/settings.png'
+import Champion from '../../assets/champion.png'
+import People from '../../assets/people.png'
 
 
 const NewProject = () => {
@@ -14,7 +18,13 @@ const NewProject = () => {
         <Container>
             <div className="relative">
                 <div className="absolute -top-[100px] left-1/2 -translate-x-1/2">
-                    <div className="w-[1000px] h-[200px] rounded-full bg-gradient-to-r from-Orange01 to-Orange02 border-8 border-white" ></div>
+                    <div className="w-[1000px] h-[200px] rounded-full bg-gradient-to-r from-Orange01 to-Orange02 border-8 border-white" >
+                        <Flex className={'gap-x-16 px-16  absolute top-1/2 -translate-y-1/2 '}>
+                            <BarContent BarImage={Settings} Numberr={'1500'} title={'Project Complate'}/>
+                            <BarContent BarImage={Champion} Numberr={'8562'} title={'Satisfied Clients'}/>
+                            <BarContent BarImage={People} Numberr={'35'} title={'Awards Win'}/>
+                        </Flex>
+                    </div>
                 </div>
                 <div className="bg-Parbel pt-44 pb-20 rounded-[50px] px-16 bg-Project bg-no-repeat bg-cover bg-center">
                     <Flex>

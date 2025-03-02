@@ -7,6 +7,7 @@ import SkillCards from '../../layout/SkillCards/SkillCards'
 import WhyChoose from '../../layout/WhyChoose/WhyChoose'
 import PricingPlan from '../../layout/PricingPlan/PricingPlan'
 import NewProject from '../../layout/New Project/NewProject'
+import TeamMember from '../../layout/Team Member/TeamMember'
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
     <WhyChoose/>
     <PricingPlan/>
     <NewProject/>
+    <TeamMember/>
     </>
   )
 }
