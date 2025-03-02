@@ -5,6 +5,10 @@ import Image from '../../components/Image'
 import Icon from '../../assets/icon01.png'
 import Text from '../../components/Text'
 import MemberCard from '../../components/MemberCard'
+import Carate from '../../assets/carate.webp'
+import Joystick from '../../assets/joystick.webp'
+import Compus from '../../assets/compus.webp'
+import Mobile from '../../assets/mobile.webp'
 
 const TeamMember = () => {
   return (
@@ -19,7 +23,12 @@ const TeamMember = () => {
                 <Text as='h1' text='Creative Team Member' className='text-[46px] font-bold font-Nunito text-black mb-14'/>
             </div>
             <Container>
-                <MemberCard/>
+                <Flex className={'justify-between'}>
+                    <MemberCard Chobi={Carate} title={'Karate King'} Subtitle={'Business Consultant'}/>
+                    <MemberCard Chobi={Joystick} title={'Joystick Game'} Subtitle={'Executive Manager'}/>
+                    <MemberCard Chobi={Compus} title={'Compus Direction'} Subtitle={'Agency Analysis'}/>
+                    <MemberCard Chobi={Mobile} title={'Mobile Mirror'} Subtitle={'Executive Manager'}/>
+                </Flex>
             </Container>
             
         </div>
