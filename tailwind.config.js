@@ -30,11 +30,13 @@ export default {
         Orange01:'#ff7024',
         Orange02:'#ffa951',
         Star:'#fcc013',
+        DeepNavy:'#292929',
       },
       backgroundImage: {
         Banner: "url('/src/assets/banner.png')",
         WhyShape: "url('/src/assets/shape.png')",
         Project: "url('/src/assets/projectbg.png')",
+        WeAre: "url('/src/assets/wearehere.png')",
       },
     },
   },
