@@ -31,6 +31,7 @@ export default {
         Orange02:'#ffa951',
         Star:'#fcc013',
         DeepNavy:'#292929',
+        violet:'#6482ee',
       },
       backgroundImage: {
         Banner: "url('/src/assets/banner.png')",
