@@ -33,6 +33,8 @@ export default {
         Star:'#fcc013',
         DeepNavy:'#292929',
         violet:'#6482ee',
+        border:'#393939',
+        footertxt:'#D9D9D9',
       },
       backgroundImage: {
         Banner: "url('/src/assets/banner.png')",
