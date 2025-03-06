@@ -8,7 +8,7 @@ const SkillCard = ({CardImage01,CardImage02, Title}) => {
   return (
     <>
     <div className="">
-        <div className=" relative group">
+        <div className="w-[345px] relative group">
             <Image imgSrc={CardImage01} imgAlt={'Design'} className={'absolute top-8 left-12'}/>
             {/* <Image imgSrc={CardImage02} imgAlt={'Rectangle'} className={'absolute -z-10'}/> */}
             <div className="w-48 h-40 rounded-tl-[50px] absolute -z-10 bg-gradient-to-r from-Parbel to-Parbel group-hover:from-Orange01 group-hover:to-Orange02 duration-300"></div>

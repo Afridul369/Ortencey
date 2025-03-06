@@ -16,6 +16,7 @@ export default {
       },
       colors: {
         BlueBg:'#3661fc',
+        DarkGrey:'#333333',
         Orange:'#fe661c',
         OrangeLight:'#ffa951',
         BorderRight:'#708FFF',
@@ -42,6 +43,7 @@ export default {
         Project: "url('/src/assets/projectbg.png')",
         WeAre: "url('/src/assets/wearehere.png')",
         Footer: "url('/src/assets/footerbg.png')",
+        AboutBG: "url('/src/assets/aboutbg.png')",
       },
     },
   },

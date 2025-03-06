@@ -11,7 +11,7 @@ import Aboutimg from '../../assets/aboutimg.png'
 const AboutOurCompany = () => {
   return (
     <>
-    <div className="pt-28 pb-14">
+    <div className="py-14">
         <Container>
             <Flex>
                 <div className="w-1/2">

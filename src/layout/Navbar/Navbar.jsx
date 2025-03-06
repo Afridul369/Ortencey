@@ -8,12 +8,13 @@ import ButtonSearch from '../../components/ButtonSearch'
 import Button01 from '../../components/Button01'
 import { GrSearch } from 'react-icons/gr'
 import { HiOutlineShoppingBag } from 'react-icons/hi'
+import { Link } from 'react-router'
 
 const Navbar = () => {
   return (
     <>
-    <div className="bg-BannerBG">
-      <div className="bg-white py-3.5 pl-4 max-w-[1700px] ml-auto rounded-l-[50px] ">
+    <div className="bg-DarkGrey">
+      <div className="bg-white py-3.5 pl-4 max-w-[1680px] ml-auto rounded-l-[50px] ">
           <Flex className={'items-center '}>
               <div className="">
                   <Flex className={'gap-x-3.5 items-center'}>
@@ -26,14 +27,18 @@ const Navbar = () => {
               </div>
               <div className="">
                   <Flex className={'gap-x-6 py-5 items-center px-40 justify-center'}>
-                      <div className="relative group">
-                          <Menu menuname={'Home'}/>
-                          <span className='w-12  h-0.5 group-hover:bg-gradient-to-r group-hover:from-Orange group-hover:to-OrangeLight bg-transparent duration-700 absolute bottom-0 group-hover:-bottom-9 left-0 '></span>
-                      </div>
-                      <div className="relative group">
-                          <Menu menuname={'About'}/>
-                          <span className='w-12  h-0.5 group-hover:bg-gradient-to-r group-hover:from-Orange group-hover:to-OrangeLight bg-transparent duration-700 absolute bottom-0 group-hover:-bottom-9 left-0 '></span>
-                      </div>
+                      <Link to={'/'}>
+                        <div className="relative group">
+                            <Menu menuname={'Home'}/>
+                            <span className='w-12  h-0.5 group-hover:bg-gradient-to-r group-hover:from-Orange group-hover:to-OrangeLight bg-transparent duration-700 absolute bottom-0 group-hover:-bottom-9 left-0 '></span>
+                        </div>
+                      </Link>
+                      <Link to={'/about'}>
+                        <div className="relative group">
+                            <Menu menuname={'About'}/>
+                            <span className='w-12  h-0.5 group-hover:bg-gradient-to-r group-hover:from-Orange group-hover:to-OrangeLight bg-transparent duration-700 absolute bottom-0 group-hover:-bottom-9 left-0 '></span>
+                        </div>
+                      </Link>
                       <div className="relative group">
                           <Menu menuname={'Services'}/>
                           <span className='w-12  h-0.5 group-hover:bg-gradient-to-r group-hover:from-Orange group-hover:to-OrangeLight bg-transparent duration-700 absolute bottom-0 group-hover:-bottom-9 left-0 '></span>
