@@ -24,7 +24,6 @@ export default {
         Menutxt:'#FE681E',
         Black01:'#1A1A1A',
         SearchBG:'#f4f4ff',
-        BannerBG:'#333333',
         Grey1:'#6B6161',
         Grey2:'#BCBCBC',
         Grey3:'#B1B1B1',
@@ -36,6 +35,8 @@ export default {
         violet:'#6482ee',
         border:'#393939',
         footertxt:'#D9D9D9',
+        BannerBG:'#333333',
+
       },
       backgroundImage: {
         Banner: "url('/src/assets/banner.png')",
@@ -44,6 +45,7 @@ export default {
         WeAre: "url('/src/assets/wearehere.png')",
         Footer: "url('/src/assets/footerbg.png')",
         AboutBG: "url('/src/assets/aboutbg.png')",
+        SupportBG: "url('/src/assets/supportbg.png')",
         ProssesBG: "url('/src/assets/prossesbg.png')",
       },
     },
