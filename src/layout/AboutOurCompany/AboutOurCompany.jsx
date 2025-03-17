@@ -36,7 +36,7 @@ const AboutOurCompany = () => {
                             </div>
                         </Flex>
                     </div>
-                    <Button02 text={'Read More'} className='w-32'/>
+                    <Button02 text={'Read More'} className=' '/>
                 </div>
             </Flex>
         </Container>
