@@ -44,6 +44,7 @@ export default {
         WeAre: "url('/src/assets/wearehere.png')",
         Footer: "url('/src/assets/footerbg.png')",
         AboutBG: "url('/src/assets/aboutbg.png')",
+        ProssesBG: "url('/src/assets/prossesbg.png')",
       },
     },
   },
