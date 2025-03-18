@@ -3,6 +3,7 @@ import Image from './Image'
 import Flex from './Flex'
 import Text from './Text'
 import ButtonHover from './ButtonHover'
+import { Link } from 'react-router'
 
 const ServiceItem = ({images,title}) => {
   return (
@@ -16,9 +17,11 @@ const ServiceItem = ({images,title}) => {
                 <Text as='h1' text={title} className='text-[25px] font-bold font-Nunito text-black mb-5'/>
                 <Text as='p' text="There are many variations of passages of Lorem Ipsusm available, but the majority our as have suffered alteration in some form, by injected humour, or randomised word which don't worry a look even sligh believable. If you are going to use a passage." className='text-base font-Dm text-Grey1 '/>
             </div>
-            <div className="">
-                <ButtonHover text={'Read More'}/>
-            </div>
+            <Link to={'/servicedetails'}>
+                <div className="">
+                    <ButtonHover text={'Read More'}/>
+                </div>
+            </Link>
         </Flex>
     </div>
     </>

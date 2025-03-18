@@ -25,9 +25,9 @@ const Prosses = () => {
         </div>
         <Container>
             <Flex className={'justify-between'}>
-                <ProssesItem number={one} icon={Progres}/>
-                <ProssesItem number={two} icon={Dollar}/>
-                <ProssesItem number={three} icon={Puzzle}/>
+                <ProssesItem number={one} icon={Progres} title={'Business Planning'}/>
+                <ProssesItem number={two} icon={Dollar} title={'Market research'}/>
+                <ProssesItem number={three} icon={Puzzle} title={'Completely Solution'}/>
             </Flex>
         </Container>
     </div>

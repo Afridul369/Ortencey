@@ -9,7 +9,7 @@ import ButtonHover from '../../components/ButtonHover'
 const Support = () => {
   return (
     <>
-    <div className="bg-SupportBG bg-no-repeat bg-cover bg-center pt-24 pb-28">
+    <div className="mb-14 bg-SupportBG bg-no-repeat bg-cover bg-center pt-24 pb-28">
         <Container>
             <div className=" text-center">
                 <Flex className={'items-center justify-center gap-x-3 mb-2'}>

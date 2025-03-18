@@ -4,7 +4,7 @@ import Text from './Text'
 import hh from '../assets/progres.png'
 import kk from '../assets/prosesshape.png'
 
-const ProssesItem = ({number,icon}) => {
+const ProssesItem = ({number,icon,title}) => {
   return (
     <>
     <div className="inline-block">
@@ -15,7 +15,7 @@ const ProssesItem = ({number,icon}) => {
                 <Image imgSrc={icon}/>
             </div>
             <div className="py-10  w-[250px] absolute top-0 right-8">
-                <Text as='p' text='Business Planning' className='text-[25px] font-bold font-Nunito text-black mb-4 hover:text-Parbel duration-300'/>
+                <Text as='p' text={title} className='text-[25px] font-bold font-Nunito text-black mb-4 hover:text-Parbel duration-300'/>
                 <Text as='p' text='There are many variations of pass Lorem Ipsum available, but the a have suffered alteration.' className='text-base font-Dm text-black mb-4'/>
             </div>
             <div className="absolute bottom-6 left-8">
