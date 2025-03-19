@@ -12,8 +12,12 @@ const ServiceDetail = () => {
     <div className="py-14">
         <Container>
             <Flex>
+              <div className="w-2/3">
                 <ServiceDetailLeft/>
+              </div>
+              <div className="w-1/3">
                 <ServiceDetailRight/>
+              </div>
             </Flex>
         </Container>
     </div>

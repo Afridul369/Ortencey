@@ -36,6 +36,8 @@ export default {
         border:'#393939',
         footertxt:'#D9D9D9',
         BannerBG:'#333333',
+        MsgBg:'#3e3e3e',
+        Placeholder:'#9A9A9A',
 
       },
       backgroundImage: {

@@ -9,7 +9,6 @@ import pic2 from '../../assets/servicedetailpic2.png'
 import Ratio from '../../assets/ratio.png'
 import Kolom from '../../assets/kolom.png'
 import Lenden from '../../assets/lenden.png'
-import CardCheck from '../../components/CardCheck'
 import AboutContent from '../../components/AboutContent'
 
 
@@ -17,7 +16,7 @@ import AboutContent from '../../components/AboutContent'
 const ServiceDetailLeft = () => {
   return (
     <>
-    <div className="w-2/3">
+    <div className="">
         <div className="w-[890px]  overflow-hidden mb-8 rounded-3xl ">
             <Image imgSrc={img} className={' '}/>
         </div>
