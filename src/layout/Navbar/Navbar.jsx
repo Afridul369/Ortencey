@@ -45,10 +45,12 @@ const Navbar = () => {
                             <span className='w-12  h-0.5 group-hover:bg-gradient-to-r group-hover:from-Orange group-hover:to-OrangeLight bg-transparent duration-700 absolute bottom-0 group-hover:-bottom-9 left-0 '></span>
                         </div>
                       </Link>
-                      <div className="relative group">
-                          <Menu menuname={'Team'}/>
-                          <span className='w-12  h-0.5 group-hover:bg-gradient-to-r group-hover:from-Orange group-hover:to-OrangeLight bg-transparent duration-700 absolute bottom-0 group-hover:-bottom-9 left-0 '></span>
-                      </div>
+                      <Link to={'/team'}>
+                        <div className="relative group">
+                            <Menu menuname={'Team'}/>
+                            <span className='w-12  h-0.5 group-hover:bg-gradient-to-r group-hover:from-Orange group-hover:to-OrangeLight bg-transparent duration-700 absolute bottom-0 group-hover:-bottom-9 left-0 '></span>
+                        </div>
+                      </Link>
                       <div className="relative group">
                           <Menu menuname={'Pages'}/>
                           <span className='w-12  h-0.5 group-hover:bg-gradient-to-r group-hover:from-Orange group-hover:to-OrangeLight bg-transparent duration-700 absolute bottom-0 group-hover:-bottom-9 left-0 '></span>
